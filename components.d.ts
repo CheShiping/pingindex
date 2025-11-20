@@ -11,7 +11,9 @@ export {}
 /* prettier-ignore */
 declare module 'vue' {
   export interface GlobalComponents {
+    ContentOutput: typeof import('./src/components/yu-terminal/ContentOutput.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
+    YuTerminal: typeof import('./src/components/yu-terminal/YuTerminal.vue')['default']
   }
 }

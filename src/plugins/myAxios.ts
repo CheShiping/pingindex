@@ -32,6 +32,7 @@ myAxios.interceptors.response.use(
   },
   function (error) {
     // 对响应错误做点什么
+    console.error('Response error:', error);
     return Promise.reject(error);
   }
 );

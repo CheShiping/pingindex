@@ -6,7 +6,7 @@ import vue from '@vitejs/plugin-vue'
 import Components from 'unplugin-vue-components/vite'
 import { AntDesignVueResolver } from 'unplugin-vue-components/resolvers'
 // @ts-ignore
-import {chromeExtension} from "./build/chromeExtension.js"
+import { chromeExtension } from "./build/chromeExtension.js"
 
 /**按需加载 Ant Design Vue：使用 unplugin-vue-components 插件实现组件的按需导入
 Chrome 扩展支持：支持构建为 Chrome 扩展程序 */
