@@ -6,12 +6,12 @@ const router = createRouter({
     {
       path: '/',
       name: 'IndexPage',
-      component: {}
+      component: () => import('../views/IndexPage.vue')
     },
     {
       path: '/old/xterm',
       name: 'XtermPage',
-      component: {}
+      component: () => import('../views/old/XTermPage.vue')
     }
   ],
 })
