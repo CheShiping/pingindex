@@ -46,3 +46,13 @@ npm run build
 ```sh
 npm run lint
 ```
+解决了Chrome扩展相关的问题：
+
+安装了必要的依赖包 vite-plugin-chrome-extension 和 @crxjs/vite-plugin
+创建了 build/chromeExtension.js 文件来导出Chrome扩展插件
+更新了 vite.config.ts 中的导入路径
+添加了 public/manifest.json Chrome扩展清单文件
+解决了Ant Design Vue相关的问题：
+
+安装了 ant-design-vue 包
+将 main.ts 中的CSS导入路径从 'ant-design-vue/dist/reset.css' 更改为 'ant-design-vue/dist/antd.css'
